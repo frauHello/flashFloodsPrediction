@@ -1,0 +1,23 @@
+<schema>
+	<attrib name='class_labels' type='str-array'>
+		0,1
+	</attrib>
+	<attrib name='flood_time' type='Discrete'>
+		1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18
+	</attrib>
+	<graph>
+		<object type='cell'>
+			<attribute name='z' type='Float' />
+			<attribute name='Lon' type='LatLong' />
+			<attribute name='Lat' type='LatLong' />
+			<attribute name='slope' type='Float' />
+			<attribute name='stream_power_index' type='Float' />
+			<attribute name='flow_length' type='Float' />
+			<attribute name='wetness_index' type='Float' />
+			<attribute name='plan_curvature' type='Float' />
+			<attribute name='aspect' type='Float' />
+			<attribute name='distance_to_stream' type='Float' />
+			<attribute name='rainfall' type='FloatArray' />
+		</object>
+	</graph>
+</schema>

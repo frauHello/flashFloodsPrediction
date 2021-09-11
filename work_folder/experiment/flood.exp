@@ -1,0 +1,8 @@
+save_path = 'flood/'
+
+#####################################
+experiment_name = "flood"
+
+schema_file = "flood/flood_schema.xml"
+xml_graphs = "flood/flood_graphs.xml"
+pkl_graphs = "flood/flood.pkl"
